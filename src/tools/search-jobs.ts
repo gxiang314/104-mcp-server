@@ -8,7 +8,7 @@ export const searchJobsSchema = z.object({
     .string()
     .optional()
     .describe(
-      "Location code. Common: 6001001000=台北市, 6001002000=新北市, 6001005000=台中市, 6001008000=高雄市"
+      "Location code. Common: 6001001000=台北市, 6001002000=新北市, 6001005000=桃園市, 6001008000=台中市, 6001014000=台南市, 6001016000=高雄市"
     ),
   ro: z
     .number()
